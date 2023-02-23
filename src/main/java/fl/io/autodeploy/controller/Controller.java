@@ -10,7 +10,7 @@ public class Controller {
 
     @GetMapping("/get")
     public String get() {
-        return "welcome to CI/CD auto deploy";
+        return "WELCOME to CI/CD auto deploy to platform AZURE";
 
     }
 }
