@@ -11,5 +11,6 @@ public class Controller {
     @GetMapping("/get")
     public String get() {
         return "welcome to CI/CD auto deploy";
+
     }
 }
