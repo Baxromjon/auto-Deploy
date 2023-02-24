@@ -13,4 +13,9 @@ public class Controller {
         return "WELCOME to CI/CD auto deploy to platform AZURE";
 
     }
+
+    @GetMapping("/get-one")
+    public String getOne(){
+        return "after deploying to github";
+    }
 }
