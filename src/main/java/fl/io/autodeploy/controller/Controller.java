@@ -17,8 +17,4 @@ public class Controller {
         return "after deploying to github";
     }
 
-    @GetMapping("/message")
-    public String getMessage(){
-        return "Get Message";
-    }
 }
